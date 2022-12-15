@@ -1,4 +1,4 @@
-#             █ █ ▀ █▄▀ ▄▀█ █▀█ ▀
+M#             █ █ ▀ █▄▀ ▄▀█ █▀█ ▀
 #             █▀█ █ █ █ █▀█ █▀▄ █
 #              © Copyright 2022
 #           https://t.me/hikariatama
@@ -85,7 +85,7 @@ class CoreMod(loader.Module):
             " </b><i>{}</i>\n\n<emoji document_id=5233346091725888979>⚙️</emoji>"
             " <b>Hikka-TL: </b><i>{}</i>\n\n<emoji"
             " document_id=5454182070156794055>⌨️</emoji> <b>Developer:"
-            " t.me/hikariatama</b>"
+            "@FoxiModules</b>"
         ),
         "confirm_cleardb": "⚠️ <b>Are you sure, that you want to clear database?</b>",
         "cleardb_confirm": "🗑 Clear database",
@@ -168,7 +168,7 @@ class CoreMod(loader.Module):
             " </b><i>{}</i>\n\n<emoji document_id=5233346091725888979>⚙️</emoji>"
             " <b>Hikka-TL: </b><i>{}</i>\n\n<emoji"
             " document_id=5454182070156794055>⌨️</emoji> <b>Developer:"
-            " t.me/hikariatama</b>"
+            " </b>"
         ),
         "_cls_doc": "Управление базовыми настройками юзербота",
         "confirm_cleardb": "⚠️ <b>Вы уверены, что хотите сбросить базу данных?</b>",
