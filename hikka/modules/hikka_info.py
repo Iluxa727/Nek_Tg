@@ -55,7 +55,7 @@ class HikkaInfoMod(loader.Module):
             " galleries, forms, lists and animated emojis support. Userbot - software,"
             " running on your Telegram account. If you write a command to any chat, it"
             " will get executed right there. Check out live examples at <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a>'
+            ' href="https://github.com/Iluxa727/Gikka">GitHub</a>'
         ),
     }
 
@@ -99,7 +99,7 @@ class HikkaInfoMod(loader.Module):
             " анимированных эмодзи. Юзербот - программа, которая запускается на"
             " твоем Telegram-аккаунте. Когда ты пишешь команду в любом чате, она"
             " сразу же выполняется. Обрати внимание на живые примеры на <a"
-            ' href="https://github.com/hikariatama/Hikka">GitHub</a>'
+            ' href="https://github.com/Iluxa727/Gikka>GitHub</a>'
         ),
     }
 
