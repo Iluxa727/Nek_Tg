@@ -4,7 +4,7 @@
 #             █▀█ █ █ █ █▀█ █▀▄ █
 #              © Copyright 2022
 #           https://t.me/hikariatama
-#
+#k
 # 🔒      Licensed under the GNU AGPLv3
 # 🌐 https://www.gnu.org/licenses/agpl-3.0.html
 
@@ -146,7 +146,7 @@ class Web:
             if not await self._check_bot(client, text):
                 return web.Response(body="OCCUPIED")
 
-        db.set("hikka.inline", "custom_bot", text)
+        db.set("Giikka.inline", "custom_bot", text)
         return web.Response(body="OK")
 
     async def set_tg_api(self, request: web.Request) -> web.Response:
@@ -206,7 +206,7 @@ class Web:
             connection=self.connection,
             proxy=self.proxy,
             connection_retries=None,
-            device_model="Hikka",
+            device_model="Gikka",
         )
 
         self._pending_client = client
