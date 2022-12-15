@@ -62,17 +62,17 @@ class UpdaterMod(loader.Module):
         "origin_cfg_doc": "Git origin URL, for where to update from",
         "btn_restart": "🔄 Restart",
         "btn_update": "🧭 Update",
-        "restart_confirm": "❓ <b>Are you sure you want to restart?</b>",
+        "restart_confirm": "❓ <b>Ви впевнені, що хочете перезапустити??</b>",
         "secure_boot_confirm": (
-            "❓ <b>Are you sure you want to restart in secure boot mode?</b>"
+            "❓ <b>Ви впевнені, що бажаєте перезапустити в безпечному режимі завантаження??</b>"
         ),
         "update_confirm": (
-            "❓ <b>Are you sure you"
-            " want to update?\n\n<a"
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a> ⤑ <a'
-            ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>'
+            "❓ <b>хочу оновити"
+            " ?\n\n<a"
+            ' href="https://github.com/hikariatama/Gikka/commit/{}">{}</a> ⤑ <a'
+            ' href="https://github.com/hikariatama/Gikka/commit/{}">{}</a></b>'
         ),
-        "no_update": "🚸 <b>You are on the latest version, pull updates anyway?</b>",
+        "no_update": "🚸 <b>es anyway Ви використовуєте останню версію, витягніть оновлення?</b>",
         "cancel": "🚫 Cancel",
         "lavhost_restart": (
             "<emoji document_id=5469986291380657759>✌️</emoji> <b>Your {} is"
