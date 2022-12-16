@@ -559,8 +559,10 @@ class Hikka:
 
             logo1 = f"""
 
-                        █ █ █ █▄▀ █▄▀ ▄▀█
-                        █▀█ █ █ █ █ █ █▀█
+                  
+                         █▀▄▀█ ▀     █ █   █▀▀█  █▀▀▀█ █▀▀▀█ 
+                         █ ▀ █  ▀█▀   █▀▄   █  █  ▀▀▀▄▄  ▀▀▀▄▄ 
+                         ▀   ▀  ▀▀▀   ▀ ▀   ▀▀▀▀  █▄▄▄█  █▄▄▄█
 
                      • Build: {build[:7]}
                      • Version: {'.'.join(list(map(str, list(__version__))))}
@@ -576,7 +578,7 @@ class Hikka:
                     else ""
                 )
                 logging.info(
-                    "🌘 Hikka %s started\n🔏 GitHub commit SHA: %s (%s)\n%s%s",
+                    "🌘 Mikoss %s started\n🔏 GitHub commit SHA: %s (%s)\n%s%s",
                     ".".join(list(map(str, list(__version__)))),
                     build[:7],
                     upd,
