@@ -17,8 +17,9 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-#             █ █ ▀ █▄▀ ▄▀█ █▀█ ▀
-#             █▀█ █ █ █ █▀█ █▀▄ █
+#             █▀▀▀  ▀     █ █   █ █   █▀▀█  
+              █ ▀█  ▀█▀   █▀▄   █▀▄   █▄▄█ 
+              ▀▀▀▀  ▀▀▀   ▀ ▀   ▀ ▀   ▀  ▀
 #              © Copyright 2022
 #           https://t.me/hikariatama
 #
@@ -559,8 +560,10 @@ class Hikka:
 
             logo1 = f"""
 
-                        █ █ █ █▄▀ █▄▀ ▄▀█
-                        █▀█ █ █ █ █ █ █▀█
+                     
+                █▀▀▀  ▀     █ █   █ █   █▀▀█  
+                █ ▀█  ▀█▀   █▀▄   █▀▄   █▄▄█ 
+                ▀▀▀▀  ▀▀▀   ▀ ▀   ▀ ▀   ▀  ▀
 
                      • Build: {build[:7]}
                      • Version: {'.'.join(list(map(str, list(__version__))))}
@@ -576,7 +579,7 @@ class Hikka:
                     else ""
                 )
                 logging.info(
-                    "🌘 Hikka %s started\n🔏 GitHub commit SHA: %s (%s)\n%s%s",
+                    " Gikka %s started\n🔏 GitHub commit SHA: %s (%s)\n%s%s",
                     ".".join(list(map(str, list(__version__)))),
                     build[:7],
                     upd,
@@ -687,4 +690,4 @@ class Hikka:
 
 telethon.extensions.html.CUSTOM_EMOJIS = not get_config_key("disable_custom_emojis")
 
-hikka = Hikka()
+Gikka = Gikka()
