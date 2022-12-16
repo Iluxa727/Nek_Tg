@@ -264,7 +264,7 @@ def raise_auth():
     raise InteractiveAuthRequired()
 
 
-class Hikka:
+class Gikka:
     """Main userbot instance, which can handle multiple clients"""
 
     omit_log = False
@@ -451,7 +451,7 @@ class Hikka:
                     connection=self.conn,
                     proxy=self.proxy,
                     connection_retries=None,
-                    device_model="Hikka",
+                    device_model="Gikka",
                 )
 
                 client.start(phone)
@@ -491,7 +491,7 @@ class Hikka:
                     connection=self.conn,
                     proxy=self.proxy,
                     connection_retries=None,
-                    device_model="Hikka",
+                    device_model="Gikka",
                 )
 
                 client.start(phone=raise_auth if self.web else lambda: input("Phone: "))
@@ -559,8 +559,11 @@ class Hikka:
 
             logo1 = f"""
 
-                        █ █ █ █▄▀ █▄▀ ▄▀█
-                        █▀█ █ █ █ █ █ █▀█
+                 █▀▀▀  ▀     █ █   █ █   █▀▀█  
+                 █ ▀█  ▀█▀   █▀▄   █▀▄   █▄▄█ 
+                 ▀▀▀▀  ▀▀▀   ▀ ▀   ▀ ▀   ▀  ▀
+     
+                   
 
                      • Build: {build[:7]}
                      • Version: {'.'.join(list(map(str, list(__version__))))}
@@ -576,7 +579,7 @@ class Hikka:
                     else ""
                 )
                 logging.info(
-                    "🌘 Hikka %s started\n🔏 GitHub commit SHA: %s (%s)\n%s%s",
+                    "🦊 Gikka %s started\n🔏 GitHub commit SHA: %s (%s)\n%s%s",
                     ".".join(list(map(str, list(__version__)))),
                     build[:7],
                     upd,
@@ -687,4 +690,4 @@ class Hikka:
 
 telethon.extensions.html.CUSTOM_EMOJIS = not get_config_key("disable_custom_emojis")
 
-hikka = Hikka()
+gikka = Gikka()
