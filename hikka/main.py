@@ -17,8 +17,8 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-#         
-#           █▀▀▄  █▀▀   █ █   ▀▀█▀▀ █▀▀▀  
+         
+            █▀▀▄  █▀▀  █ █    ▀▀█▀▀ █▀▀▀  
             █  █  █▀▀   █▀▄     █    █ ▀█ 
             ▀  ▀  ▀▀▀   ▀ ▀     █    ▀▀▀▀
 #              © Copyright 2022
@@ -542,7 +542,7 @@ class Nek_Tg:
             me = await client.get_me()
             client._tg_id = me.id
             client.tg_id = me.id
-            client.hikka_me = me
+            client.Nek_Tg_me = me
             while await self.amain(first, client):
                 first = False
 
