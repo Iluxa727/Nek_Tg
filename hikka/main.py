@@ -392,12 +392,12 @@ class Nek_Tg:
             telegram_id = me.id
             client._tg_id = telegram_id
             client.tg_id = telegram_id
-            client.Nek_Tg_me = me
+            client.hikka_me = me
 
         session = SQLiteSession(
             os.path.join(
                 self.arguments.data_root or BASE_DIR,
-                f"Nek_Tg-{telegram_id}",
+                f"hikka-{telegram_id}",
             )
         )
 
@@ -453,7 +453,7 @@ class Nek_Tg:
                     connection=self.conn,
                     proxy=self.proxy,
                     connection_retries=None,
-                    device_model="Hikka",
+                    device_model="Nek_Tg",
                 )
 
                 client.start(phone)
@@ -542,7 +542,7 @@ class Nek_Tg:
             me = await client.get_me()
             client._tg_id = me.id
             client.tg_id = me.id
-            client.Nek_Tg_me = me
+            client.hikka_me = me
             while await self.amain(first, client):
                 first = False
 
@@ -693,4 +693,4 @@ class Nek_Tg:
 
 telethon.extensions.html.CUSTOM_EMOJIS = not get_config_key("disable_custom_emojis")
 
-nek_tg = Nek_Tg()
+hikka = Hikka()
