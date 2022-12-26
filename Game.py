@@ -2438,10 +2438,10 @@ async def prof_user(message: types.Message):
 
             if work == 0:
                 work2 = 'Безработный'
-                zp = '0$'
+                zp = '0$
             if work == 1:
                 work2 = 'Фермер🍎'
-                zp = '54728,000,000$'
+                zp = '54728,0$'
             if work == 2:
                 work2 = 'Шахтёр⛏'
                 zp = '100,000,000$'
